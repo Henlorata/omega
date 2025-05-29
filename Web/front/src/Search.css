@@ -1,0 +1,37 @@
+.search{
+    min-height: 100vh; 
+    gap:1rem;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    width: min(95vw, 1300px); 
+    margin: 0 auto;
+
+}
+.holder{
+    max-width: 1200px;
+    margin:3rem auto;
+    box-shadow: 0 0 5px rgb(38, 5, 169);
+}
+.search, .err{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1rem;
+    padding: 1rem;
+    place-content: center;
+    
+}
+.search img{
+    width: 95%;
+    object-fit: cover;
+}
+.search h2{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(38, 5, 169);
+    
+    
+}
+
+.txt{
+    color: rgb(38, 5, 169);
+    font-size: bold;
+}

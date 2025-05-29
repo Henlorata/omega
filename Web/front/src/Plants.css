@@ -1,0 +1,48 @@
+.plants{
+    min-height: 100vh; 
+    width: min(95vw, 1300px); 
+
+  margin: 0 auto;
+    gap:1rem;
+    display: grid;
+    grid-template-columns: 1fr  ;
+
+
+}
+.cardsHolder{
+    max-width: 1200px;
+    margin:0 auto;
+    box-shadow: 0 0 5px rgb(38, 5, 169);
+}
+.plant{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    padding: 1rem;
+    
+}
+.plant img{
+    width: 95%;
+    object-fit: cover;
+}
+.plant h4{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(38, 5, 169);
+    color:rgb(38, 5, 169);
+    text-transform: uppercase;
+}
+.plant p{
+ padding-top: 1rem;
+ text-indent: 1rem;
+ text-align: justify;
+}
+
+@media screen and (max-width:700px) {
+    .plant{
+      grid-template-columns: 1fr;
+    }
+   .plant img{
+    width: 100%;
+   }
+  }
